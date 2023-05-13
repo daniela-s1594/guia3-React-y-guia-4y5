@@ -1,14 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+// import ProjectsPage2 from "./components/componente1/user";
+// import MyApp from "./components/componente1/primerComp";
+import ShoppingList from "./components/componente1/Listas";
+import React from "react";
 
-function AboutPage() {
+const App = () => {
   return (
-    <>
-    <h1>about</h1>
-    <p>Hello there. <br />¿How do you do?</p>
-    </>
+    <div>
+      <ShoppingList/>
+    </div>
   );
-}
+};
 
-export default App
+export default App;
