@@ -1,10 +1,11 @@
-import React from 'react'
+import React from "react";
 
-export  const AdminPanel = () => {
+const AdminPanel = () => {
   return (
-    <Fragment>
-        <h1>Hola</h1>
-        <p>Soy Daniela</p>
-    </Fragment>
-  )
-}
+    <>
+      <h1>Hola</h1>
+      <p>Soy Daniela</p>
+    </>
+  );
+};
+export default AdminPanel;
