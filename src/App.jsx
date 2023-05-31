@@ -8,13 +8,14 @@
 //import { Greeter2 } from "./components/componente1/Greeter2";
 //import { Empleado } from "./components/componente1/empleado";
 //import { Fruta } from "./components/componente1/frutas";
-import Profile from "./components/componente1/avatar";
+//import Profile from "./components/componente1/avatar";
+import { FirstApp } from "./components/componente1/title";
 import React from "react";
 
 function App() {
   return (
     <div>
-      <Profile/>
+      <FirstApp tittle="Tema:React" subTitle={32}/>
     </div>
   )
 };
